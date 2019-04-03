@@ -31,6 +31,9 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="https://turfspace.com/assets/build/theme/material/css/material-dashboard.min.css">
     <link rel="stylesheet" href="https://turfspace.com/assets/build/css/main.css?id=fab46b5cb265397138e5">
+
+    <!-- Freshsales Integration-->
+    <script> function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;t.src='https://d952cmcgwqsjf.cloudfront.net/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('https://creatizens.freshsales.io','67205603aa6c16881208ee2a358accf0ea6414f6c193b75335f5900878de73bd',true);}})();</script>
 </head>
 
 <body class="off-canvas-sidebar turf">
@@ -259,13 +262,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 ml-auto mr-auto">
-                <h2 id="partner" class="title"><strong>Partner</strong> program</h2>
+                <h2 id="partner" class="title">Join the <strong>Partner</strong> program</h2>
 
-                <h3 class="description">Join the Partner Program now to be eligible</h3>
-
-                <a href="mailto:hello@turfspace.com" class="btn btn-secondary btn-lg">Send Us A Message</a>
-            </div>
-        </div>
+                <h3 class="description">Your life is about to get easier. Wanna know how?</h3>
+                <form>
+	                <div class="row justify-content-center ">
+	                	<div class="col-md-4">
+						  	<div class="form-group text-light">
+						    	<input type="text" class="form-control text-light" name="name" placeholder="Name">
+						  	</div>
+						  	<div class="form-group">
+						    	<input type="email" class="form-control text-light" name="email" placeholder="Email">
+						  	</div>
+						  	<div class="form-group">
+						    	<input type="text" class="form-control text-light" name="mobileNumber" placeholder="Mobile Number">
+						  	</div>
+						</div>
+						<div class="col-md-4">
+						  	<div class="form-group">
+						    	<input type="text" class="form-control text-light" name="companyName" placeholder="Company Name">
+						  	</div>
+					  		<div class="form-group">
+						    	<input type="text" class="form-control text-light" name="jobTitle" placeholder="Job Title">
+						  	</div>
+					  	</div>
+					</div>
+				  	<button type="submit" class="btn btn-secondary btn-lg">Let's talk</button>
+				</form>
+             </div>
+         </div>
     </div>
 </section>
 
